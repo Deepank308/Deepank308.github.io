@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Josefin+Sans|Playfair+Display+SC&display=swap');
+
+body {
+    font-family: 'Josefin sans', sans-serif;
+}
+
+.top-bound {
+    margin-top: 7%;
+}
+
+.post-list {
+    padding-top: 7%;
+    padding-bottom: 4%;
+}
+
+.quote {
+    padding: 10%;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

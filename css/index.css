@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Josefin+Sans|Playfair+Display+SC&display=swap');
+
+.intro {
+    padding: 5% 0;
+    cursor: default;
+}
+body {
+}
+.main-header h1 {
+    font-size: 2rem;
+}
+.main-header #name {
+    font-family: 'Playfair Display SC', serif;
+}
+.main-header {
+    padding-top: 20%;
+    padding-bottom: 4%;
+    height: 70vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*.square {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: lightcoral;*/
+/*    position: absolute;*/
+/*    transform: rotate(45deg);*/
+/*}*/
+
+#overlay {
+    font-family: 'Great Vibes', cursive;
+    z-index: 2000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: white;
+    text-align: center;
+    padding-top: 20%;
+}
+
+@media (min-width: 576px) {
+
+    .main-header {
+        padding-top: 5%;
+    }
+    .main-header h1 {
+        font-size: 3rem;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .main-header {
+        padding-top: 5%;
+        padding-bottom: 4%;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-header {
+        padding-top: 6%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-header {
+        padding-top: 3%;
+    }
+}
