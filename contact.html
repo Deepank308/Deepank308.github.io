@@ -76,7 +76,11 @@
         </p>
     </section>
 
-    <div id="map"></div>
+    <iframe 
+        id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.8963482015733!2d87.29585191478718!3d22.31975948531342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d43f90ddb280d%3A0xe99574f057554b6f!2sNehru%20Hall%20of%20Residence%2C%20Pan%20Loop%2C%20IIT%20Kharagpur%2C%20Kharagpur%2C%20West%20Bengal%20721302!5e0!3m2!1sen!2sin!4v1594236764370!5m2!1sen!2sin" 
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+    </iframe>
+    
 </div>
 
 <!-- Footer -->
@@ -99,22 +103,6 @@
 
 <script src="script/navbar.js"></script>
 
-<script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMKW2wFmROodU76SZzqO2LPMS76JMskGY&callback=initMap">
-</script>
-
-<script>
-
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: 22.320325, lng: 87.297901};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 17, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
 
 </script>
 
