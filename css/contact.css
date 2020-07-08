@@ -28,6 +28,12 @@ footer, .push {
     width: 100%;
 }
 
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+
 freebirdFormviewerViewFormContentWrapper {
     overflow: hidden;
 }
